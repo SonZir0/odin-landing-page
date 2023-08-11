@@ -4,7 +4,6 @@ body {
 }
 
 header,
-.to-action
 footer {
     padding: 0px 250px;
 }
@@ -38,11 +37,12 @@ header {
 }
 
 .top a,
-.bottom p {
+.bottom p,
+.call p {
     font-size:  18px;
     color: #e5e7eb;
     text-decoration: none;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .bottom {
@@ -50,8 +50,8 @@ header {
     gap: 50px;
 }
 
-.left,
-.right {
+.bottom .left,
+.bottom .right {
     flex: 1;
 }
 
@@ -62,7 +62,7 @@ header {
     margin: 0px;
 }
 
-.right {
+.bottom .right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,9 +74,10 @@ button {
     background-color: #3382f6;
     font-size:  18px;
     font-weight: 700;
-    border-radius: 6px;
+    border-radius: 8px;
     border-style: hidden;
-    padding: 8px 24px;
+    padding: 8px 28px;
+    margin: 18px 0px;
 }
 
 .info {
@@ -136,4 +137,27 @@ button {
 .quote .author {
     align-self: flex-end;
     margin-right: 50px;
+}
+
+.call {
+    display: flex;
+    background-color: #3382f6;
+    justify-content: center;
+    align-items: center;
+    margin: 125px 250px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 40px 150px;
+}
+
+.call h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.call button {
+    border: solid 2px #f9faf8;
+    margin-left: auto;
 }
