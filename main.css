@@ -73,3 +73,37 @@ button {
     border-style: hidden;
     padding: 8px 24px;
 }
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 1.2em 0px;
+}
+
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    list-style-type: none;
+    padding: 0px 0px 70px;
+}
+
+.info li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0;
+}
+
+.info li div {
+    height: 150px;
+    width: 150px;
+    border: 3px  solid #3382f6;
+    border-radius: 10px ;
+}
