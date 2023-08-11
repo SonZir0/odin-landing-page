@@ -13,7 +13,8 @@ footer {
     padding: 0px 325px;    
 }
 
-header {
+header,
+footer {
     background-color: #1f2937;
 }
 
@@ -38,7 +39,8 @@ header {
 
 .top a,
 .bottom p,
-.call p {
+.call p,
+footer p {
     font-size:  18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -80,7 +82,8 @@ button {
     margin: 18px 0px;
 }
 
-.info {
+.info,
+footer {
     text-align: center;
 }
 
@@ -160,4 +163,8 @@ button {
 .call button {
     border: solid 2px #f9faf8;
     margin-left: auto;
+}
+
+footer {
+    padding: 40px;
 }
